@@ -1,0 +1,94 @@
+/*First part is the CSS config of the order.html*/
+
+#title{  /*Defining the style of the head by creating an ID, with a color font and margin*/
+    font-family: sans-serif;
+    color: #380861;
+    margin-left: 10%;
+}
+.order-body { /*Defining the class of everything that is inside the body, picked center to put the form in the center of the page*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+form { /*Defining the class of all forms, colors were adjusted and also size of letters and widht */
+    width: 80%; 
+    max-width: 600px; 
+    padding: 20px;
+    border: 5px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    
+}
+.required { /*Creating font and style for the observations inside the form that starts with an * */
+    font-size: 0.8em; 
+    font-style: italic;
+    color: red; 
+    margin-block-start:0;
+}
+ 
+/*The second part is about the index page*/
+
+.main-image { /*Defining the position and width of the image*/
+    display:block;
+    margin:auto;
+    width: 70%;        
+}
+
+.header1 { /*Choose a background color for the header, color of font, alignment*/
+    color:rgb(203, 201, 201);
+    text-align:center;
+    margin: 0;
+    padding: 20px 0;
+    background-color: rgba(14, 14, 233, 0.932);
+}
+
+.header2 { /*Center the header2*/
+    text-align:center;
+}
+
+.index-body {  /*Background color of all page, except header*/
+    background-color: silver;
+}
+aside { /*Size of the aside where I will put the subscribe*/
+	width: 45%;
+    height: 100%;
+        
+}
+main {
+	display: flex;
+	flex-direction: row;
+}
+
+.orderClass{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.buttonOrder{ /*Changing the way the buttons on the main page appear, color, border, size, letter...*/
+    background-color:rgba(14, 14, 233, 0.932); 
+    color: rgb(248, 245, 245); 
+    border: 2px solid #070707;
+    padding: 10px 20px;
+    font-size: 16px;
+    box-shadow: 2px 2px 4px rgba(242, 242, 246, 0.1);
+    
+}
+
+.header3{ /*Text indent to align the part of the footer*/
+    text-indent: 70px;
+}
+
+ul { /*UL and IL configuration to align the social network that is in the bottom*/
+    list-style-position: inside; 
+    padding-left: 0; 
+    text-align: right; 
+    text-indent:70px;
+}
+
+li {
+    text-align: left; 
+    text-indent:70px;
+}
+
+ 
